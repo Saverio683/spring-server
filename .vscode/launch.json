@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TepApplication<tep>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.randazzo.tep.TepApplication",
+            "projectName": "tep",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

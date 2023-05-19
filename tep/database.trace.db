@@ -1,0 +1,6 @@
+2023-05-19 11:42:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "truncate table [*]user"; expected "identifier"; SQL statement:
+truncate table user [42001-214]
+2023-05-19 11:43:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "truncate [*]user"; expected "TABLE"; SQL statement:
+truncate user [42001-214]

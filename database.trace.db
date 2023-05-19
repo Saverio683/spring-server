@@ -1,0 +1,18 @@
+2023-05-14 23:23:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'STATUS_PENDING' (REQUESTS: ""APPROVED_BY_PROFESSORE"" SMALLINT)"; SQL statement:
+insert into requests (id, approved_by_professore, approved_by_vicepreside, classe, date, end_hour, sezione, start_hour) values (default, ?, ?, ?, ?, ?, ?, ?) [22018-214]
+2023-05-14 23:28:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ìREQUESTS"; SQL statement:
+ìREQUESTS [42000-214]
+2023-05-14 23:28:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'STATUS_PENDING' (REQUESTS: ""APPROVED_BY_PROFESSORE"" SMALLINT)"; SQL statement:
+insert into requests (id, approved_by_professore, approved_by_vicepreside, classe, date, end_hour, sezione, start_hour) values (default, ?, ?, ?, ?, ?, ?, ?) [22018-214]
+2023-05-14 23:29:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'STATUS_PENDING' (REQUESTS: ""APPROVED_BY_PROFESSORE"" SMALLINT)"; SQL statement:
+insert into requests (id, approved_by_professore, approved_by_vicepreside, classe, date, end_hour, sezione, start_hour) values (default, ?, ?, ?, ?, ?, ?, ?) [22018-214]
+2023-05-14 23:34:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'STATUS_PENDING' (REQUESTS: ""APPROVED_BY_PROFESSORE"" SMALLINT)"; SQL statement:
+insert into requests (id, approved_by_professore, approved_by_vicepreside, classe, date, end_hour, sezione, start_hour) values (default, ?, ?, ?, ?, ?, ?, ?) [22018-214]
+2023-05-14 23:35:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "delete [*]table requests"; expected "identifier"; SQL statement:
+delete table requests [42001-214]
